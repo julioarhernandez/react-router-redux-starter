@@ -1,3 +1,5 @@
+import {Counter} from "../features/counter/Counter";
+
 export default function Root() {
     return (
         <>
@@ -11,6 +13,7 @@ export default function Root() {
                     </li>
                 </ul>
             </nav>
+            <Counter />
         </>
     );
 }
