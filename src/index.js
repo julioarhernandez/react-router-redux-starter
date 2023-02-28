@@ -6,11 +6,11 @@ import {
 } from "react-router-dom";
 
 import {Provider} from "react-redux";
-import store from './store/store';
+import store from 'store/store';
 
-import Root from './routes/Root';
-import Contact from "./routes/Page";
-import Error from "./routes/Error";
+import Root from "routes/Root";
+import Contact from "routes/Page";
+import Error from "routes/Error";
 
 import reportWebVitals from './reportWebVitals';
 
